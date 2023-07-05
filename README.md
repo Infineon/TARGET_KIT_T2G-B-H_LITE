@@ -76,7 +76,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 
 ## More information
 * [KIT_T2G-B-H_LITE BSP API Reference Manual][api]
-* [KIT_T2G-B-H_LITE Documentation](https://www.infineon.com/KIT_T2G-B-H_LITE)
+* [KIT_T2G-B-H_LITE Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)

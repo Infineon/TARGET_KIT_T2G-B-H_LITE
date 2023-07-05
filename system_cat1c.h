@@ -438,6 +438,16 @@ extern "C" {
 /** Error Selection */
 #define CORE_MAX                    (2U)
 
+/** Define start of the function placed to the ITCM area by the linker */
+#ifndef CY_SECTION_ITCM_BEGIN
+#define CY_SECTION_ITCM_BEGIN CY_SECTION(".cy_itcm")
+#endif
+
+/** Define end of the function placed to the ITCM area by the linker */
+#ifndef CY_SECTION_ITCM_END
+#define CY_SECTION_ITCM_END
+#endif
+
 extern uint32_t cy_delayFreqHz;
 extern uint32_t cy_delayFreqKhz;
 extern uint32_t  cy_delayFreqMhz;
