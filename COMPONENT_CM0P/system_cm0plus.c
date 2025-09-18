@@ -306,9 +306,9 @@ static void PrepareSystemCallInfrastructure(void)
 {
     const uint8_t u8Irq0Index = (uint8_t) (VECTOR_TABLE_OFFSET_IRQ0 / 4);
     const uint8_t u8Irq1Index = (uint8_t) (VECTOR_TABLE_OFFSET_IRQ1 / 4);
-    volatile uint32_t * const ramTable   = (uint32_t *)__ramVectors;
+    volatile uint32_t * const volatile ramTable   = (uint32_t *)__ramVectors;
     /* The array syntax is necessary to avoid out-of-bounds warnings in some compilers. */
-    volatile uint32_t (* const sromTable)[VECTORTABLE_SIZE]  = (uint32_t (*)[VECTORTABLE_SIZE])SROM_VECTOR_TABLE_BASE_ADDRESS;
+    volatile uint32_t (* const volatile sromTable)[VECTORTABLE_SIZE]  = (uint32_t (*)[VECTORTABLE_SIZE])SROM_VECTOR_TABLE_BASE_ADDRESS;
 
     // Use IRQ0 and IRQ1 handlers from SROM vector table
     ramTable[u8Irq0Index] = (*sromTable)[u8Irq0Index];

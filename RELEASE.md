@@ -18,6 +18,8 @@ The KIT_T2G-B-H_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v2.3.4
+* Update BSP template to v1.7.5
 #### v2.3.3
 * Fix documentation URLs for some Traveo Kits
 * Update BSP template to v1.7.4
