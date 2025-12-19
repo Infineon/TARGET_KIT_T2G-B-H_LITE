@@ -33,8 +33,6 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 * T2G-B-H evaluation board
 * USB Type-A to Micro-B cable
-* 12V/3A DC power adapter with additional blades
-* Six jumper wires
 * See 
 [Quick start guide](https://www.infineon.com/assets/row/public/documents/10/44/infineon-traveo-tm-t2g-body-high-lite-kit-kit-t2g-b-h-lite-quick-start-guide-usermanual-en.pdf)
 
@@ -91,7 +89,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 * [KIT_T2G-B-H_LITE Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
-* [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
+* [ModusToolbox™](https://www.infineon.com/design-resources/development-tools/sdk/modustoolbox-software)
 
 [api]: https://infineon.github.io/TARGET_KIT_T2G-B-H_LITE/html/modules.html
 [settings]: https://infineon.github.io/TARGET_KIT_T2G-B-H_LITE/html/md_bsp_settings.html

@@ -18,13 +18,16 @@ The KIT_T2G-B-H_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v2.3.6
+* Updated the capabilities in props.json for KIT_T2G-B-H_LITE, KIT_T2G-B-H_EVK and KIT_TRAVEO_T2G_B_H_MC1 BSPs
+* Fixed documentation for some Traveo Kits
 #### v2.3.5
-* Fix the BSP template version
+* Fixed the BSP template version
 #### v2.3.4
-* Update BSP template to v1.7.5
+* Updated BSP template to v1.7.5
 #### v2.3.3
-* Fix documentation URLs for some Traveo Kits
-* Update BSP template to v1.7.4
+* Fixed documentation URLs for some Traveo Kits
+* Updated BSP template to v1.7.4
 #### v2.3.2
 * Updated the startup code to align with mtb-pdl-cat1 v3.17.0 for XMC7000 BSPs
 #### v2.3.1
@@ -57,7 +60,7 @@ Workaround: Program the board using an IDE launch config.
 * Added functionality to enable BSP Assistant chip flow
 * Added capabilities to match BSPS created by BSP Assistant chip flow
 #### v1.1.0
-* Add macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
+* Added macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
 #### v1.0.0
 Note: This revision is only compatible with ModusToolbox Tools 3.0 and newer.
 * Initial production release
@@ -79,7 +82,7 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 * [KIT_T2G-B-H_LITE Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g-b-h_lite/)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
-* [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
+* [ModusToolbox™](https://www.infineon.com/design-resources/development-tools/sdk/modustoolbox-software)
 
 [api]: https://infineon.github.io/TARGET_KIT_T2G-B-H_LITE/html/modules.html
 

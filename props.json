@@ -1,6 +1,6 @@
 {
     "core": {
-        "version": "2.3.5.48064"
+        "version": "2.3.6.48681"
     },
     "opt": {
         "props": {
@@ -29,12 +29,12 @@
                 "nor_flash",
                 "qspi",
                 "rtc",
-                "sdio",
                 "smart_io",
                 "spi",
                 "sram_1024k",
                 "std_crypto",
                 "switch",
+                "t2gbh",
                 "t2gbh_lite",
                 "uart"
             ],
