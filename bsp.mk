@@ -34,7 +34,7 @@ endif
 BSP_COMPONENTS:=XMC7x_CM0P_SLEEP
 
 # Any additional defines to apply when using this board.
-BSP_DEFINES:=CY_USING_HAL
+BSP_DEFINES:=
 
 # Path to the flash loaders to patch for this board
 CY_QSPI_FLM_DIR=$(MTB_TOOLS__TARGET_DIR)/config/FlashLoaders/

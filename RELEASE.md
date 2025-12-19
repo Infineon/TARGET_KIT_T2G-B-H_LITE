@@ -18,8 +18,10 @@ The KIT_T2G-B-H_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v3.2.0
+* Enabled HAL interface version 3 support for KIT_T2G-B-H_LITE and KIT_T2G-B-H_EVK
 #### v2.3.6
-* Updated the capabilities in props.json for KIT_T2G-B-H_LITE, KIT_T2G-B-H_EVK and KIT_TRAVEO_T2G_B_H_MC1 BSPs
+* Updated the capabilities in props.json for KIT_T2G-B-H_LITE and KIT_TRAVEO_T2G_B_H_MC1 BSPs
 * Fixed documentation for some Traveo Kits
 #### v2.3.5
 * Fixed the BSP template version
@@ -70,12 +72,12 @@ This version of the KIT_T2G-B-H_LITE BSP was validated for compatibility with th
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.5.0   |
-| GCC Compiler                              | 11.3.1  |
+| ModusToolbox™ Software Environment        | 3.6.0   |
+| GCC Compiler                              | 14.2.1  |
 | IAR Compiler                              | 9.50.2  |
 | ARM Compiler                              | 6.22    |
 
-Minimum required ModusToolbox™ Software Environment: v3.0.0
+Minimum required ModusToolbox™ Software Environment: v3.3.0
 
 ### More information
 * [KIT_T2G-B-H_LITE BSP API Reference Manual][api]
